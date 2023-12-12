@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Онониме</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+</head>
+
+<body>
+
+<ul class="header"> <!--Верхнее меню -->
+	<li><a class="TaB" href="pages/SignUp.html" target="OPS" onclick="window.open('pages//SignUp.html','OPS','width=200,height=670'); return false;">Регистрация</a></li>
+	<li><a class="TaB" href="pages/Login.html" target="OPS" onclick="window.open('pages//Login.html','OPS','width=200,height=500'); return false;">Вход</a></li>
+	<li><a href="pages/Help.html" class="TaB">Помощь</a></li>
+	<li><a href="pages/Top.html" class="TaB">Топ</a></li>
+	<li><a href="pages/Catalog.html" class="TaB">Каталог</a></li>
+	<li><a href="index.html" class="TaB">Главная страница</a></li>
+	<div><img class="logo" src="images/logo.jpg" height="50" width="50" alt="Логотип"></div>
+</ul>
+
+  <!-- Оболочка для демонстрации -->
+    <div class="wrapper">
+      <!-- Контент -->
+     <h2 class="title">Сезонное аниме:</h2>
+	
+        <div class="slider">
+	  
+			<div class="slider__item filter">
+			  <img src="images/slides/1.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/2.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item">
+			  <img src="images/slides/3.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/4.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item">
+			  <img src="images/slides/5.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/6.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/7.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/8.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/9.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/10.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/11.jpg" alt="" >
+			</div>
+			
+			<div class="slider__item filter">
+			  <img src="images/slides/12.jpg" alt="" >
+			</div>
+        
+        </div>
+    </div>
+
+		<!--Галерея -->
+    <section class="gallery">
+	
+	 <h2 class="title">Новинки на сайте:</h2>
+	 
+		<div class="gallery-list">
+		
+			<a href="images/alchem.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/ALCHEM.jpg" alt="alt">
+			</a>
+		  
+			<a href="images/gatari.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/GATARI.jpg" alt="alt">
+			</a>
+		  
+			<a href="images/haikuu.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/HAIKYUU.jpg" alt="alt">
+			</a>
+		  
+			<a href="images/hxh.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/HXH.jpg" alt="alt">
+			</a>
+		  
+			<a href="images/jujutsu.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/JUJUTSU.jpg" alt="alt">
+			</a>
+		  
+			<a href="images/one.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/ONE.jpg" alt="alt">
+			</a>
+		  
+			<a href="images/shaman.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/SHAMAN.jpg" alt="alt">
+			</a>
+		  
+			<a href="images/violet.gif" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="images/VIOLET.jpg" alt="alt">
+			</a>
+		</div>
+    </section>
+
+	<!--Скрипт, позволяющий переключать кадры -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script>
+    $(".gallery-list").magnificPopup({
+      delegate: "a",
+      type: "image",
+      gallery: {
+        enabled: true
+      }
+    });
+	</script>
+      
+      <!-- Подключаем jQuery -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <!-- Подключаем слайдер Slick -->
+      <script src="js/slick.min.js"></script>
+      <!-- Подключаем файл скриптов -->
+      <script src="js/script.js"></script>
+<ul class="footer"> <!--Нижнее меню-->
+	<li><a href="pages/Contacts.html" class="TaB">Контакты</a></li>
+	<li><a href="#" class="TaB">Пользовательское соглашение</a></li>
+	<div><img class="logo" src="images\logo.jpg" height="50" width="50" alt="Логотип"></div>
+</ul>
+
+</body>
+</html>
